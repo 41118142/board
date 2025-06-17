@@ -42,7 +42,7 @@ INSTALLED_APPS = [
 ]
 
 CAPTCHA_NOISE_FUNCTIONS = (
-     'captcha.helpers.noise_dots', #點  
+     'captcha.helpers.math_challenge', #點  
 )
 
 MIDDLEWARE = [
